@@ -34,6 +34,25 @@ This project analyzes bank customer data to predict card categories using machin
 - Random Forest classification for card category prediction
 - Model saving with pickle
 
+## Running the Streamlit App
+
+To launch the interactive web app for card category prediction:
+
+1. Activate your virtual environment (if not already active):
+   ```
+   env\Scripts\activate  # On Windows
+   ```
+2. Install Streamlit if not already installed:
+   ```
+   pip install streamlit
+   ```
+3. Run the app:
+   ```
+   streamlit run streamlit_app.py
+   ```
+
+This will open a browser window with the app interface for entering customer details and predicting the card category.
+
 ## Requirements
 See `requirements.txt` for all dependencies.
 
@@ -43,3 +62,47 @@ See `requirements.txt` for all dependencies.
 
 ## License
 This project is for educational purposes.
+
+## GitHub Setup & Usage
+
+To upload and manage this project on GitHub:
+
+1. **Initialize a git repository (if not already done):**
+   ```
+   git init
+   ```
+2. **Add all project files:**
+   ```
+   git add .
+   ```
+3. **Commit your changes:**
+   ```
+   git commit -m "Initial commit"
+   ```
+4. **Create a new repository on GitHub** (via the GitHub website).
+
+5. **Add the remote origin:**
+   ```
+   git remote add origin https://github.com/your-username/your-repo-name.git
+   ```
+6. **Push your code to GitHub:**
+   ```
+   git push -u origin master
+   ```
+
+**Steps**
+
+-  git add .
+-  git commit -m "Initial IPL Match Predictor project"
+-  git branch
+-  git status
+-  git remote add origin git@github.com:pratik85/bank_credit_card_categorisation_2026
+-  git remote -v
+-  git push -u origin master
+
+**If you want to do some Changes of some file and update in github**
+
+- git add README.md
+- git commit -m "Update README with latest changes"
+- git push
+
