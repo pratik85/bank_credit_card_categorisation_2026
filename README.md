@@ -77,7 +77,7 @@ To upload and manage this project on GitHub:
    ```
 3. **Commit your changes:**
    ```
-   git commit -m "Initial commit"
+   git commit -m "My first project"
    ```
 4. **Create a new repository on GitHub** (via the GitHub website).
 
@@ -93,7 +93,7 @@ To upload and manage this project on GitHub:
 **Steps**
 
 -  git add .
--  git commit -m "Initial IPL Match Predictor project"
+-  git commit -m "Credit card categorisation"
 -  git branch
 -  git status
 -  git remote add origin git@github.com:pratik85/bank_credit_card_categorisation_2026
